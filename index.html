@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EXE File Scanner</title>
+    <title>VirusTotal-like Scanner</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="container">
-        <h1>EXE File Scanner</h1>
-        <input type="file" id="exeFileInput" accept=".exe">
-        <button id="scanButton">Scan</button>
-        <pre id="output"></pre>
+        <h1>File Scanner</h1>
+        <p>Upload a file to scan it for malware (simulated).</p>
+        <input type="file" id="fileInput">
+        <button id="scanButton">Scan File</button>
+        <div id="results" class="results"></div>
     </div>
     <a href="TOS.html">Terms of Service</a>
     <script src="index.js"></script>
